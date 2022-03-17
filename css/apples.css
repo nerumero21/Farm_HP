@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+.apples-type:not(:first-child) {
+  margin-top: 80px;
+}
+
+.apples-type-ttl {
+  font-weight: bold;
+  font-size: 26px;
+  border-bottom: 1px solid #222;
+}
+
+.apples-type-description {
+  margin-top: 20px;
+}
+
+.apples-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.apples-item {
+  width: 23%;
+  margin-top: 20px;
+  margin-right: calc((100% - (23% * 4)) / 3);
+}
+
+.apples-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.apples-item-ttl {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.apples-products{
+	margin-top: 40px;
+}
+
+.apples-type-info {
+  width: 100%;
+  border: 1px solid #222;
+  margin-top: 20px;
+}
+
+.apples-type-info-name,
+.apples-type-info-data {
+  border-top: 1px solid #222;
+  padding: 10px;
+}
+
+.apples-type-info-name {
+  font-weight: bold;
+  width: 30%;
+  border-right: 1px solid #222;
+  background-color: #f5f6f9;
+}
+
+.apples-type-info-data {
+  width: 70%;
+}
+@media screen and (max-width: 768px) {
+  .apples-item {
+    width: 47%;
+    margin-top: 20px;
+  }
+}
