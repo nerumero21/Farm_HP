@@ -12,6 +12,10 @@
   font-weight: bold;
 }
 
+.notice-online{
+  color: #0033cc;
+}
+
 .contact-form-item-input{
   margin-top: 5px;
   font-size: 16px;

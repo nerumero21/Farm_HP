@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.top-mv{
+.top-mv {
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -9,118 +9,120 @@
   color: #fff;
 }
 
-.top-mv-main-copy{
+.top-mv-main-copy {
   font-weight: bold;
   font-size: 50px;
   text-align: center;
 }
 
-.top-mv-sub-copy{
+.top-mv-sub-copy {
   font-weight: bold;
   font-size: 18px;
   text-align: center;
 }
 
-.top-feature{
+.top-feature {
   color: #fff;
   background-color: #222;
 }
 
-.top-feature-txt{
+.top-feature-txt {
   margin-top: 20px;
 }
 
-.top-service-ttl{
+.top-apples-ttl {
   text-align: left;
   border-bottom: 1px solid #222;
 }
 
-.top-apples-item{
-  font-size: 20px;
-  margin-top: 15px;
-}
-
-.top-service-list{
+.top-apples-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.top-service-item{
+.top-apples-item {
+  font-size: 20px;
+  margin-top: 15px;
   width: 32%;
   margin-top: 20px;
-  margin-right: calc((100% - (32% * 3))/2);
+  margin-right: calc((100% - (32% * 3)) / 2);
 }
 
-.top-service-item:nth-child(3n){
+.top-apples-item-description {
+  font-size: 15px;
+}
+
+.top-apples-item:nth-child(3n) {
   margin-right: 0;
 }
 
-.top-service-item-ttl{
+.top-apples-item-ttl {
+  margin-top: 10px;
   font-weight: bold;
   font-size: 18px;
 }
 
-.top-service-btn{
+.top-apples-btn {
   margin: 40px auto 0;
 }
 
-.top-blog{
+.top-blog {
   color: #fff;
   background-color: #222;
 }
 
-.top-blog-ttl{
+.top-blog-ttl {
   text-align: center;
 }
 
-.top-blog-list{
+.top-blog-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin: 20px 50px;
 }
 
-.top-blog-item{
+.top-blog-item {
   width: 32%;
   margin-right: calc((100% - (32% * 3)) / 2);
 }
 
-.top-blog-item:nth-child(3n){
+.top-blog-item:nth-child(3n) {
   margin-right: 0;
 }
 
-.top-blog-item-date{
+.top-blog-item-date {
   margin-top: 5px;
   margin-right: 20px;
   font-size: 14px;
 }
 
-.top-blog-item-ttl{
+.top-blog-item-ttl {
   font-weight: bold;
   font-size: 18px;
 }
 
-.top-blog-btn{
+.top-blog-btn {
   margin: 40px auto 0;
 }
 
-.twitter{
+.twitter {
   margin: 20px auto;
 }
 
-@media screen and (max-width: 768px){
-  .top-service-item{
-    width: 100%;
-    margin-right: 0;
+@media screen and (max-width: 768px) {
+  .top-apples-item {
+    width: 75%;
+    margin: 10px 10px;
   }
 
-  .top-news-item-link{
+  .top-news-item-link {
     padding: 10px;
     font-size: 14px;
   }
 
-  .top-blog-item{
+  .top-blog-item {
     width: 100%;
     margin-right: 0;
   }
